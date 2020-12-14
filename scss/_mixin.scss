@@ -1,0 +1,35 @@
+@charset "utf-8";
+$bp-pc: 769px;
+$bp-sp: 768px;
+@mixin media($media-width) {
+  @if $media-width == pc {
+    @media only screen and (min-width: $bp-pc) {
+      @content;
+    }
+  }
+  @if $media-width == sp {
+    @media only screen and (max-width: $bp-sp) {
+      @content;
+    }
+  }
+}
+// clearfix
+$supportIE: true;
+.clearfix {
+  @if $supportIE {
+    *zoom: 1;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+//cubic
+$cubic1: cubic-bezier(0.4, 0.3, 0.5, 0.9);
+//color
+$co1: #EF712E;
+$co2: #E6A53A;
+$co3: #171717;
+$co4: #E2E2E2;
+$co5: #646464;
