@@ -523,6 +523,11 @@ main
       width: 100%;
       padding: 100px;
       position: relative;
+      &.-xmas{
+        min-height: 700px;
+        background: url(../images/xmas_special@2x.jpg) no-repeat center;
+        background-size: cover;
+      }
       @include media(sp) {
         padding:30px;
         min-height: auto;
@@ -536,6 +541,7 @@ main
         left: 0;
         top: 0;
         pointer-events: none;
+        opacity: .5;
         z-index: 2;
       }
       &:after{
@@ -568,7 +574,7 @@ main
       font-style: italic;
       line-height: 1.6em;
       max-width: 880px;
-      margin: 0 auto 3em auto;
+      margin: 0 auto 2em auto;
       text-shadow: 0px 3px 15px rgba(0, 0, 0, 0.9);
       position: relative;
       z-index: 2;
@@ -600,6 +606,12 @@ main
       background: url(../images/pattern_1.png);
       background-size: 12px;
       overflow: hidden;
+      &.-xmas{
+        padding: 80px 0 0 0;
+        @include media(sp) {
+          padding: 40px 0 0 0;
+        }
+      }
     }
     .box{
       max-width: 800px;
@@ -1266,4 +1278,44 @@ main
       }
     }
   }
+}
+
+
+//xmas_camp
+.xmas{
+  &_lead{
+    display: block;
+    margin: 0 auto 20px auto;
+    position: relative;
+    z-index: 2;
+    max-width: 552px;
+    img{
+      display: block;
+      width: auto;
+      max-width: 100%;
+    }
+  }
+
+  &_special{
+    width: 100%;
+    max-width: 762px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    z-index: 2;
+    filter: drop-shadow(7px 10px 15px rgba(0,0,0,0.4));
+    @include media(sp) {
+      width: 105%;
+      left: 48%;
+      max-width: 580px;
+    }
+    img{
+      display: block;
+      width: auto;
+      max-width: 100%;
+    }
+  }
+
+
 }

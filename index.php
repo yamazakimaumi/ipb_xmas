@@ -67,7 +67,10 @@
       <article>
         <!--sec01-->
         <section id="sec01">
-          <div class="mv">
+          <div class="mv -xmas">
+            <p class="xmas_lead">
+              <img src="images/xmas_lead.svg" alt="X'mas Campaign Now!">
+            </p>
             <h1>Trouble-free and safe IPv4 transaction <br>stepping across boundaries of regions and languages</h1>
             <p class="text">Buying and selling IPv4 address. IPBIDDERS.COM will make it happen! IPBIDDERS.COM offers an auction-based trading platform for IPv4 address by pulling together the buyers and sellers. Experience a trouble-free and safe IPv4 transaction with us.</p>
             <ul>
@@ -78,12 +81,15 @@
                 <a href="#sec04_seller" class="btn btn_w"><img src="images/icon_sell_orange.png" alt="Those who wish to sell" class="icon">Those who wish to sell</a>
               </li>
             </ul>
+            <div class="xmas_special">
+              <img src="images/xmas_special@2x.png" alt="X'mas Campaign Now!">
+            </div>
           </div>
         </section>
         <!--//sec01-->
         <!--sec02-->
         <section id="sec02">
-          <div class="bg">
+          <div class="bg -xmas">
             <div class="box fadein_top">
               <h2>IPBIDDINGS will offer know-how for <span class="orange">IPv4</span> transaction.</h2>
               <p>The shortage seen in the number of inventories for IPv4 addresses is at the other hand creating a brisk market to secure new addresses. However, there are also many concerns to follow. Perhaps you are unable to find a buyer or seller or maybe facing difficulties completing the transaction properly since your counterpart is someone overseas. There might be cases where investigation and negotiating conditions is hindering prompt transactions. You can solve all these concerns by using IPBIDDERS.COM.</p>
